@@ -1,11 +1,11 @@
-<div>
+<div class="bob">
   <p>Nom : {{ User.name }}</p>
   <p>Prénom : {{ User.firstName }}</p>
   <p [ngStyle]="{ display: isVisible ? 'block' : 'none' }">
     Age : {{ User.age }}
   </p>
   <p>{{ User.quote }}</p>
-  <img [src]="User.photo" [alt]="User.name" />
+  <img class="bob__img" [src]="User.photo" [alt]="User.name" />
   <button (click)="ageVisibility()">Switch Age</button>
   <input [(ngModel)]="User.quote" />
 </div>
