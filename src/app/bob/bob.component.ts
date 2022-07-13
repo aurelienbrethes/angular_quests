@@ -7,10 +7,10 @@ import { Component, OnInit } from "@angular/core";
 })
 export class BobComponent implements OnInit {
   User = {
-    name: "Doe",
-    firstName: "John",
+    name: "Le Bricoleur",
+    firstName: "Bob",
     age: 25,
-    quote: "",
+    quote: "Vive la bricole !",
     photo: "https://randomuser.me/api/portraits/lego/2.jpg",
   };
 
